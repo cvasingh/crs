@@ -1,0 +1,331 @@
+/* CSS Toolbox - WET 3.1 Design Guide begin - Louis */
+
+/* WET 4.0 .table classes to be applied on the table tag beging */
+table {
+    border-collapse: collapse !important;
+}
+table {
+    margin-bottom: 23px;
+    max-width: 100%;
+    width: 100%;
+}
+table > tbody > tr > td, table > tbody > tr > th, table > tfoot > tr > td, table > tfoot > tr > th, table > thead > tr > td, table > thead > tr > th {
+    border-top: 1px solid #ddd;
+    line-height: 1.4375;
+    padding: 8px;
+    vertical-align: top;
+}
+table > thead > tr > th {
+    border-bottom: 2px solid #ddd;
+    vertical-align: bottom !important; /* Need to add important here to match the WET table alignment */
+}
+table > caption + thead > tr:first-child > td, table > caption + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > th, table > thead:first-child > tr:first-child > td, table > thead:first-child > tr:first-child > th {
+    border-top: 0 none;
+}
+table > tbody + tbody {
+    border-top: 2px solid #ddd;
+}
+table table {
+    background-color: #fff;
+}
+table > tbody > tr.active > td, table > tbody > tr.active > th, table > tbody > tr > td.active, table > tbody > tr > th.active, table > tfoot > tr.active > td, table > tfoot > tr.active > th, table > tfoot > tr > td.active, table > tfoot > tr > th.active, table > thead > tr.active > td, table > thead > tr.active > th, table > thead > tr > td.active, table > thead > tr > th.active {
+    background-color: #f0f0f0;
+}
+table > tbody > tr.success > td, table > tbody > tr.success > th, table > tbody > tr > td.success, table > tbody > tr > th.success, table > tfoot > tr.success > td, table > tfoot > tr.success > th, table > tfoot > tr > td.success, table > tfoot > tr > th.success, table > thead > tr.success > td, table > thead > tr.success > th, table > thead > tr > td.success, table > thead > tr > th.success {
+    background-color: #dff0d8;
+}
+table > tbody > tr.info > td, table > tbody > tr.info > th, table > tbody > tr > td.info, table > tbody > tr > th.info, table > tfoot > tr.info > td, table > tfoot > tr.info > th, table > tfoot > tr > td.info, table > tfoot > tr > th.info, table > thead > tr.info > td, table > thead > tr.info > th, table > thead > tr > td.info, table > thead > tr > th.info {
+    background-color: #d9edf7;
+}
+table > tbody > tr.warning > td, table > tbody > tr.warning > th, table > tbody > tr > td.warning, table > tbody > tr > th.warning, table > tfoot > tr.warning > td, table > tfoot > tr.warning > th, table > tfoot > tr > td.warning, table > tfoot > tr > th.warning, table > thead > tr.warning > td, table > thead > tr.warning > th, table > thead > tr > td.warning, table > thead > tr > th.warning {
+    background-color: #fcf8e3;
+}
+table > tbody > tr.danger > td, table > tbody > tr.danger > th, table > tbody > tr > td.danger, table > tbody > tr > th.danger, table > tfoot > tr.danger > td, table > tfoot > tr.danger > th, table > tfoot > tr > td.danger, table > tfoot > tr > th.danger, table > thead > tr.danger > td, table > thead > tr.danger > th, table > thead > tr > td.danger, table > thead > tr > th.danger {
+    background-color: #f2dede;
+}
+/* WET 4.0 .table classes to be applied on the table tag end */
+
+.mrgn-lft-0 {margin-left: 0!important;}
+.mrgn-lft-sm {margin-left: 5px!important;}
+.mrgn-lft-md {margin-left: 15px!important;}
+.mrgn-lft-lg {margin-left: 25px!important;}
+.mrgn-lft-xlg {margin-left: 50px!important;}
+.mrgn-bttm-0 {margin-bottom: 0!important;}
+.mrgn-bttm-sm {margin-bottom: 5px!important;}
+.mrgn-bttm-md {margin-bottom: 15px!important;}
+.mrgn-bttm-lg {margin-bottom: 25px!important;}
+.mrgn-bttm-xlg {margin-bottom: 50px!important;}
+.mrgn-tp-0 {margin-top: 0!important;}
+.mrgn-tp-sm {margin-top: 5px!important;}
+.mrgn-tp-md {margin-top: 15px!important;}
+.mrgn-tp-lg {margin-top: 25px!important;}
+.mrgn-tp-xlg {margin-top: 50px!important;}
+.mrgn-rght-0 {margin-right: 0!important;}
+.mrgn-rght-sm {margin-right: 5px!important;}
+.mrgn-rght-md {margin-right: 15px!important;}
+.mrgn-rght-lg {margin-right: 25px!important;}
+.mrgn-rght-xlg {margin-right: 50px!important;}
+
+ol ol {list-style-type: lower-alpha;}
+ol ol ol {list-style-type: lower-roman;}
+ol.list-numeric {list-style-type: decimal !important;}
+ol ul {list-style-type: disc !important;}
+ol ul ul {list-style-type: circle !important;}
+ol ul ul ul {list-style-type: square !important;}
+.list-lower-alpha {list-style-type: lower-alpha !important;}
+.list-lower-roman {list-style-type: lower-roman !important;}
+.list-bullet-none {list-style-type: none !important;}
+.list-upper-alpha {list-style-type: upper-alpha !important;}
+.list-upper-roman {list-style-type: upper-roman !important;}
+
+.margin-bottom-none {margin-bottom: 0 !important;}
+.margin-bottom-small {margin-bottom: 2px !important;}
+.margin-bottom-medium {margin-bottom: 10px !important;}
+.margin-bottom-large {margin-bottom: 20px !important;}
+.margin-bottom-xlarge {margin-bottom: 50px !important;}
+.margin-top-none {margin-top: 0 !important;}
+.margin-top-small {margin-top: 2px !important;}
+.margin-top-medium {margin-top: 10px !important;}
+.margin-top-large {margin-top: 20px !important;}
+.margin-top-xlarge {margin-top: 50px !important;}
+.margin-right-none {margin-right: 0 !important;}
+.margin-right-small {margin-right: 2px !important;}
+.margin-right-medium {margin-right: 10px !important;}
+.margin-right-large {margin-right: 20px !important;}
+.margin-right-xlarge {margin-right: 50px !important;}
+.margin-left-none {margin-left: 0 !important;}
+.margin-left-small {margin-left: 2px !important;}
+.margin-left-medium {margin-left: 10px !important;}
+.margin-left-large {margin-left: 20px !important;}
+.margin-left-xlarge {margin-left: 50px !important;}
+
+.indent-none {margin-left: 0 !important;}
+.indent-small {margin-left: 2px !important;}
+.indent-medium {margin-left: 10px !important;}
+.indent-large {margin-left: 20px !important;}
+.indent-xlarge {margin-left: 50px !important;}
+
+.align-left {text-align: left !important;}
+.align-center {text-align: center !important;}
+.align-right {text-align: right !important;}
+p.align-right {margin-right: 10px;}
+.align-top {vertical-align: top !important;}
+.align-top img {vertical-align: text-top !important;}
+.align-middle {vertical-align: middle !important;}
+.align-bottom {vertical-align: bottom !important;}
+.align-bottom img {vertical-align: text-bottom !important;}
+
+.float-left {float: left !important;}
+.float-right {float: right !important;}
+
+.width-100 {width: 100% !important;}
+.width-90 {width: 90% !important;}
+.width-80 {width: 80% !important;}
+.width-70 {width: 70% !important;}
+.width-60 {width: 60% !important;}
+.width-50 {width: 50% !important;}
+.width-40 {width: 40% !important;}
+.width-30 {width: 30% !important;}
+.width-20 {width: 20% !important;}
+.width-10 {width: 10% !important;}
+
+.opacity-100 {opacity: 1;}
+.opacity-90 {opacity: 0.9;}
+.opacity-80 {opacity: 0.8;}
+.opacity-70 {opacity: 0.7;}
+.opacity-60 {opacity: 0.6;}
+.opacity-50 {opacity: 0.5;}
+.opacity-40 {opacity: 0.4;}
+.opacity-30 {opacity: 0.3;}
+.opacity-20 {opacity: 0.2;}
+.opacity-10 {opacity: 0.1;}
+
+.display-block {display: block !important;}
+.display-inline-block {display: inline-block !important;}
+.display-inline {display: inline !important;}
+
+.wrap-none {white-space: nowrap;}
+
+	/*
+	.column-2 {-moz-column-count: 2;}
+	.column-3 {-moz-column-count: 3;}
+	.column-4 {-moz-column-count: 4;}
+	.position-left, .position-left-small, .position-left-medium, .position-left-large, .position-left-xlarge, .position-right, .position-right-small, .position-right-medium, .position-right-large, .position-right-xlarge, .position-top, .position-top-small, .position-top-medium, .position-top-large, .position-top-xlarge, .position-bottom, .position-bottom-small, .position-bottom-medium, .position-bottom-large, .position-bottom-xlarge {margin: 0 !important;position: absolute !important;}
+	.position-left {left: 0 !important;}
+	.position-left-small {left: 10px !important;}
+	.position-left-medium {left: 20px !important;}
+	.position-left-large {left: 50px !important;}
+	.position-left-xlarge {left: 100px !important;}
+	.position-right {right: 0 !important;}
+	.position-right-small {right: 10px !important;}
+	.position-right-medium {right: 20px !important;}
+	.position-right-large {right: 50px !important;}
+	.position-right-xlarge {right: 100px !important;}
+	.position-top {top: 0 !important;}
+	.position-top-small {top: 10px !important;}
+	.position-top-medium {top: 20px !important;}
+	.position-top-large {top: 50px !important;}
+	.position-top-xlarge {top: 100px !important;}
+	.position-bottom {bottom: 0 !important;}
+	.position-bottom-small {bottom: 10px !important;}
+	.position-bottom-medium {bottom: 20px !important;}
+	.position-bottom-large {bottom: 50px !important;}
+	.position-bottom-xlarge {bottom: 100px !important;}
+	.clear {
+		clear: both;
+		display: block;
+		height: 0;
+		margin: 0;
+		overflow: hidden;
+		visibility: hidden;
+		width: 0;
+	}*/
+	/*.line-height-xsmall {line-height: 0.8 !important;
+	}
+	.line-height-small {line-height: 1 !important;
+	}
+	.line-height-medium {line-height: 1.25 !important;
+	}
+	.line-height-large {line-height: 1.5 !important;
+	}
+	.line-height-xlarge {line-height: 2 !important;
+	}
+	img.float-left {margin-right: 10px;
+	}*/
+	ul.menu-horizontal {
+		border: 0 none;
+		margin: 10px;
+		overflow: hidden;
+		padding: 0;
+	}
+	ul.menu-horizontal li {
+		display: inline;
+		float: left;
+		list-style-image: none;
+		list-style-type: none;
+		margin-left: 0;
+		padding-left: 2px;
+		padding-right: 2px;
+		white-space: nowrap;
+	}
+	ul.menu-horizontal li:first-child, ul.menu-horizontal li.first {padding-left: 0;}
+	ul.menu-horizontal li:last-child {padding-right: 0;}
+	ul.menu-horizontal li.last {padding-right: 0;}
+	ul.menu-horizontal li {
+		margin-bottom: 5px;
+		padding-left: 0;
+		padding-right: 4px;
+	}
+	.wrapcontainer, .wrapContainer {
+    float: left;
+    width: 100%;
+	}
+	
+	/*.font-xxsmall {font-size: 50% !important;
+	}
+	.font-xsmall {font-size: 70% !important;
+	}
+	.font-small {font-size: 85% !important;
+	}
+	.font-medium {font-size: 100% !important;
+	}
+	.font-large {font-size: 120% !important;
+	}
+	.font-xlarge {font-size: 150% !important;
+	}
+	.font-xxlarge {font-size: 180% !important;
+	}*/
+/* CSS Toolbox - WET 3.1 Design Guide end */
+
+/* CLF 2 Tool Box classes begin */
+	.widthfull, .widthFull {width: 98.5%;}
+	.width95 {width: 95%;}
+	.width90 {width: 90%;}
+	.width85 {width: 85%;}
+	.width80 {width: 80%;}
+	.width75 {width: 75%;}
+	.width70 {width: 70%;}
+	.width65 {width: 65%;}
+	.width60 {width: 60%;}
+	.width55 {width: 55%;}
+	.width50 {width: 50%;}
+	.width45 {width: 45%;}
+	.width40 {width: 40%;}
+	.width35 {width: 35%;}
+	.width30 {width: 30%;}
+	.width25 {width: 25%;}
+	.width20 {width: 20%;}
+	.width15 {width: 15%;}
+	.width10 {width: 10%;}
+	.width5 {width: 5%;}
+	
+	/* Alignment utility CSS / CSS d'utilité d'alignement */
+	.align-right, .alignRight {text-align: right;}
+	.align-center, .alignCenter {text-align: center;}
+	.align-left, .alignLeft {text-align: left;}
+	.align-top, .alignTop {vertical-align: top;}
+	.align-bottom, .alignBottom {vertical-align: bottom;}
+	.align-topright, .alignTopRight {text-align: right; vertical-align: top;}
+	.align-topcenter, .alignTopCenter {text-align: center; vertical-align: top;}
+	.align-topleft, .alignTopLeft {text-align: left; vertical-align: top;}
+	.align-bottomright, .alignBottomRight {text-align: right; vertical-align: bottom;}
+	.align-bottomcenter, .alignBottomCenter {text-align: center; vertical-align: bottom;}
+	.align-bottomleft, .alignBottomLeft {text-align: left; vertical-align: bottom;}
+	.float-right, .floatRight {float: right;}
+	.float-left, .floatLeft {float: left;}
+	.image-left {float: left; vertical-align: text-top; margin-right: 10px;}
+	.image-right {float: right; vertical-align: text-top; margin-left: 10px;}
+	
+	.indent1 {padding-left: 18px;}
+	.indent2 {padding-left: 36px;}
+	.indent3 {padding-left: 54px;}
+	.indent4 {padding-left: 72px;}
+	.indent5 {padding-left: 90px;}
+	
+	/* List utility CSS / CSS d'utilité de liste */
+	ul.nobullet, ul.noBullet {list-style-type: none;}
+	ul.disc {list-style-type: disc;}
+	ul.square {list-style-type: square;}
+	ul.circle {list-style-type: circle;}
+	ol.lower-alpha {list-style-type: lower-alpha;}
+	ol.upper-alpha {list-style-type: upper-alpha;}
+	ol.lower-roman {list-style-type: lower-roman;}
+	ol.upper-roman {list-style-type: upper-roman;}
+	
+	.uppercase {text-transform: uppercase;}
+	
+	.clearBoth			{clear:both;}
+	.clearRight 		{clear:right;}
+	.clearLeft 			{clear:left;}
+	
+	/* Generic utility CSS / CSS d'utilité générique */
+	.fontsize200, .fontSize200 {font-size: 200%;}
+	.fontsize195, .fontSize195 {font-size: 195%;}
+	.fontsize190, .fontSize190 {font-size: 190%;}
+	.fontsize185, .fontSize185 {font-size: 185%;}
+	.fontsize180, .fontSize180 {font-size: 180%;}
+	.fontsize175, .fontSize175 {font-size: 175%;}
+	.fontsize170, .fontSize170 {font-size: 170%;}
+	.fontsize165, .fontSize165 {font-size: 165%;}
+	.fontsize160, .fontSize160 {font-size: 160%;}
+	.fontsize155, .fontSize155 {font-size: 155%;}
+	.fontsize150, .fontSize150 {font-size: 150%;}
+	.fontsize145, .fontSize145 {font-size: 145%;}
+	.fontsize140, .fontSize140 {font-size: 140%;}
+	.fontsize135, .fontSize135 {font-size: 135%;}
+	.fontsize130, .fontSize130 {font-size: 130%;}
+	.fontsize125, .fontSize125 {font-size: 125%;}
+	.fontsize120, .fontSize120 {font-size: 120%;}
+	.fontsize115, .fontSize115 {font-size: 115%;}
+	.fontsize110, .fontSize110 {font-size: 110%;}
+	.fontsize105, .fontSize105 {font-size: 105%;}
+	.fontsize100, .fontSize100 {font-size: 100%;}
+	.fontsize95, .fontSize95 {font-size: 95%;}
+	.fontsize90, .fontSize90 {font-size: 90%;}
+	.fontsize85, .fontSize85 {font-size: 85%;}
+	.fontsize80, .fontSize80 {font-size: 80%;}
+	.fontsize75, .fontSize75 {font-size: 75%;}
+	.fontsize70, .fontSize70 {font-size: 70%;}
+	
+	.color-red, .red {color: #C00; background-color: transparent;}
+/* CLF 2 Tool Box classes end */
